@@ -7,6 +7,18 @@ body {
     background: linear-gradient(to bottom, white, rgb(120, 231, 120));
   }
 
+  #header {
+    color: #ffa6c9;
+    text-shadow: 2px 2px #5F9F9F;
+    font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    position: relative;
+    margin-left: 60px;
+    top: 50px;
+  }
 
   .button:focus {
     border-color:#333;
