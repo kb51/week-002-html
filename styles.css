@@ -3,7 +3,7 @@
 body {
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
-    background: linear-gradient(to bottom, white, white, #ffa6c9);
+    background: linear-gradient(to bottom, #ffa6c9, white, white);
   }
 
   #header {
