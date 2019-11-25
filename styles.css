@@ -19,14 +19,13 @@ body {
     margin-left: 60px;
     top: 50px;
   }
-
   .button:focus {
     border-color:#333;
  }
  
  .button {
      padding:5px 15px; 
-     background:#61946d;
+     background:#ffa6c9;
      color: whitesmoke;
      border:0 none;
      cursor:pointer;
@@ -35,8 +34,9 @@ body {
  }
  
  .button:hover {
-   color: rgb(120, 231, 120);
+   color: #fa4c92;
  }
+ 
  
  #table {
     margin-left: auto;
