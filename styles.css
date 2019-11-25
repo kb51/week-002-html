@@ -4,7 +4,7 @@ body {
     margin-top: 50px;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
-    background: linear-gradient(to bottom, white, rgb(120, 231, 120));
+    background: linear-gradient(to bottom, white, white, #ffa6c9);
   }
 
   #header {
