@@ -7,3 +7,22 @@ body {
     background: linear-gradient(to bottom, white, rgb(120, 231, 120));
   }
 
+
+  .button:focus {
+    border-color:#333;
+ }
+ 
+ .button {
+     padding:5px 15px; 
+     background:#61946d;
+     color: whitesmoke;
+     border:0 none;
+     cursor:pointer;
+     -webkit-border-radius: 5px;
+     border-radius: 5px; 
+ }
+ 
+ .button:hover {
+   color: rgb(120, 231, 120);
+ }
+ 
