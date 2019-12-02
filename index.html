@@ -2,7 +2,9 @@
 
 <head>
     <title>My ToDo Application</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
 <body>
@@ -13,30 +15,30 @@
             <button class="button">Add</button>
         </form>
         <p id="things">Things to do: 2</p>
-        <table id="table">
-            <tr>
-                <td>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
                     <span>A first task</span>
-                </td>
-                <td>
+                </div>
+                <div class="col-6 col-sm-3">
                     <button class="button">Done</button>
-                </td>
-                <td>
+                </div>
+                <div class="col-6 col-sm-3">
                     <button class="button">Delete</button>
-                </td>
-            </tr>
-            <tr>
-                <td>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6">
                     <span>A second task</span>
-                </td>
-                <td>
+                </div>
+                <div class="col-6 col-sm-3">
                     <button class="button">Done</button>
-                </td>
-                <td>
+                </div>
+                <div class="col-6 col-sm-3  ">
                     <button class="button">Delete</button>
-                </td>
-            </tr>
-        </table>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
